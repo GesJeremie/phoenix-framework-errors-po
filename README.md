@@ -1,5 +1,4 @@
-![meme](https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/meme.jpg?raw=true
-)
+<img src="https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/meme.jpg?raw=true" width="390">
 
 # Errors.po 
 

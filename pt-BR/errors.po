@@ -4,11 +4,15 @@
 ## --merge` or `mix gettext.merge` to merge POT files into PO files.
 msgid ""
 msgstr ""
-"Language: pt-BR\n"
+"Language: pt-BR\n"<%= if ecto do %>
 
 ## From Ecto.Changeset.cast/4
 msgid "can't be blank"
 msgstr "não pode ficar em branco"
+
+## From Ecto.Changeset.unique_constraint/3
+msgid "has already been taken"
+msgstr "já foi escolhido"
 
 ## From Ecto.Changeset.put_change/3
 msgid "is invalid"
@@ -69,27 +73,19 @@ msgstr[0] "deve ter no máximo %{count} item(s)"
 msgstr[1] "deve ter no máximo %{count} item(s)"
 
 ## From Ecto.Changeset.validate_number/3
-msgid "must be less than %{count}"
-msgid_plural "must be less than %{count}"
-msgstr[0] "deve ser menor que %{count}"
-msgstr[1] "deve ser menor que %{count}"
+msgid "must be less than %{number}"
+msgid_plural "must be less than %{number}"
+msgstr[0] "deve ser menor que %{number}"
+msgstr[1] "deve ser menor que %{number}"
 
-msgid "must be greater than %{count}"
-msgid_plural "must be greater than %{count}"
-msgstr[0] "deve ser maior que %{count}"
-msgstr[1] "deve ser maior que %{count}"
+msgid "must be greater than %{number}"
+msgstr "deve ser maior que %{number}"
 
-msgid "must be less than or equal to %{count}"
-msgid_plural "must be less than or equal to %{count}"
-msgstr[0] "deve ser menor ou igual a %{count}"
-msgstr[1] "deve ser menor ou igual a %{count}"
+msgid "must be less than or equal to %{number}"
+msgstr "deve ser menor ou igual a %{number}"
 
-msgid "must be greater than or equal to %{count}"
-msgid_plural "must be greater than or equal to %{count}"
-msgstr[0] "deve ser maior ou igual a %{count}"
-msgstr[1] "deve ser maior ou igual a %{count}"
+msgid "must be greater than or equal to %{number}"
+msgstr "deve ser maior ou igual a %{number}"
 
-msgid "must be equal to %{count}"
-msgid_plural "must be equal to %{count}"
-msgstr[0] "deve ser igual a %{count}"
-msgstr[1] "deve ser igual a %{count}"
+msgid "must be equal to %{number}"
+msgstr "deve ser igual a %{number}"<% end %>

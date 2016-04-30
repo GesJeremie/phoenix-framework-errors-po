@@ -11,7 +11,9 @@ If you want to translate that file in your native language, just send me a pull 
 
 | Code  | Name                | Contributor |
 |-------|---------------------|----------------|
+| de-DE      |  German (Germany)                   |  <a href="https://github.com/ericstumper"><img src="https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/contributors/ericstumper.jpg?raw=true" width="60"></a>              |
 | fr    | French              | <a href="https://github.com/GesJeremie"><img src="https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/contributors/GesJeremie.jpeg?raw=true" width="60"></a> |
 | ja    | Japanese            | <a href="https://github.com/hykw"><img src="https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/contributors/hykw.jpeg?raw=true" width="60"></a> |
 | pt-BR | Portuguese (Brazil) | <a href="https://github.com/fladson"><img src="https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/contributors/fladson.jpeg?raw=true" width="60"></a>             |
+|       |                     |                |
 |       |                     |                |

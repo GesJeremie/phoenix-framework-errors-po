@@ -1,3 +1,5 @@
+> :skull: This project has been archived 
+
 <img src="https://github.com/GesJeremie/phoenix-framework-errors-po/blob/master/meme.jpg?raw=true" width="390">
 
 # Errors.po 
